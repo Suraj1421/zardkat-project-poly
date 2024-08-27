@@ -39,7 +39,7 @@ const config: HardhatUserConfig = {
   },
    networks:{
     cardona:{
-      url:process.env.POLYGON_ZKEVM_CARDONA_ALCHEMY_API_URL,
+      url:process.env.CARDONA_API_URL,
       accounts:[process.env.PRIVATE_KEY],
     }
   }
